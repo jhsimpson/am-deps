@@ -1,0 +1,8 @@
+- name: Install Archivemaica pre-installation dependencies
+  yum:
+    name: "{{ item }}"
+    state: present
+  when: ansible_os_family == 'RedHat'
+  with_items:
+    - "python-pip"
+    - "git"
