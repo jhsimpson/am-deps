@@ -1,0 +1,24 @@
+---
+
+allow_duplicates: yes
+
+galaxy_info:
+  author: Justin Simpson
+  description: Pre-dependencies for Archivematica
+  company: "Artefactual"
+  license: "license (AGPL 3.0)"
+  min_ansible_version: 2.1.0
+  platforms:
+  - name: EL
+    versions:
+    - 7
+  - name: Debian
+    versions:
+    - all
+  - name: Ubuntu
+    versions:
+    - all
+  categories:
+    - system
+
+dependencies: []
